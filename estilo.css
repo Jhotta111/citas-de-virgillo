@@ -1,0 +1,57 @@
+@font-face {
+    font-family:"Ribeye Marrow";
+    src: url(fonts\Ribeye Marrow.woff2)
+}
+@font-face {
+    font-family: "Just Another Hand";
+    src: url(Fonts/Just\ Another\ Hand.woff2);
+  }
+
+  @font-face {
+    font-family: "Lobster";
+    src: url(Fonts/Lobster.woff2);
+  }
+
+
+body {
+    background-color: rgb(218, 159, 88);
+}
+
+h1
+{
+    text-align: center;
+    font-family: "Ribeye Marrow", cursive;
+}
+
+
+p.til
+{
+    padding: 10px;
+    margin left: 30% ;
+    margin right: 30%;
+    text-align: center;
+    line-height: 200%;
+    font-family: sans-serif;
+}
+
+p.uno
+{
+        margin: 0;
+        font-family: "Lobster", sans-serif;
+        font-size: 2.5rem;
+
+}
+
+p.dos
+{
+    margin: 0 0 3rem;
+    color: white;
+    font-family: "Just Another Hand", sans-serif;
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+    text-align: right;
+  }
+    
+  cite {
+    text-decoration: underline;
+  }
